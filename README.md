@@ -49,5 +49,9 @@ For example: Taking input as 75
 
 
 3.NET SALARY CALCULATOR
+The aim of the challenge was to calculate net salaries based on the tax criteria of the government of Kenya.
 
+All deductions inform of NHIF and NSSF were factored in and were used to generate the net salary.
+
+Thereafter the net salary was displayed to the user.
 
