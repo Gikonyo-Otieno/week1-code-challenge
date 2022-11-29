@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>Student Grade Calculator</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Student grade calculator</h1>
+        <div class="screen-body-item">
+          <div class="app">
+            <div class="form-group">
+              <!-- option for taking the input -->
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Marks"
+                id="marks"
+                />
+
+            </div>
+          </div>    
+        </div> 
+        <div>
+            <input
+              type="button"
+              value="Show Grade"
+              class="form-button"
+              onclick="calculate()"
+            />
+        </div>
+            <!-- for showing the result-->
+        <div class="form-group showdata">
+        <p id="showdata"></p>
+        </div>
+    </div> 
+     <!--adding external javascript file-->
+    <script src="index.js"></script>  
+</body>
+</html>
