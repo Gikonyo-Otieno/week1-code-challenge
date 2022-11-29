@@ -41,8 +41,8 @@ const calculate = () => {
              }
 
      // Checking the values are empty if empty than
-    // show please fill them
-     if (speed == "" ) {
+    // message incase speed is not captured in input
+      if (speed == "" ) {
         document.querySelector("#showdata").innerHTML
           = "Please enter valid speed";
     } else {
