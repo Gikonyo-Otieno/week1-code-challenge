@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <title>Speed Detector</title>
+    <link rel="stylesheet" href="index.css" type="text/css" />  
+
+</head> 
+<body>
+    <!--Prompt Speed input-->
+   <div class="container">
+         <input
+        type="text"
+        class="form-control"
+        placeholder="Enter Speed"
+        id="speed"
+     />   
+    <div>
+        <input
+          type="button"
+          value="Show Points"
+          class="form-button"
+          onclick="calculate()"
+        />
+    </div>
+      <!-- for showing the result-->
+    <div class="form-group showdata">
+        <p id="showdata"></p>
+    </div>
+   </div>
+   <!--adding external javascript file-->
+   <script src="index.js"></script>  
+</body>
+</html>
